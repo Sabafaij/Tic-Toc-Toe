@@ -47,6 +47,7 @@ const resetGame=()=>{
     boxes.forEach((box)=>{
         box.innerText='';
         box.disabled=false;
+        box.style.backgroundColor='white';
     });
 }
 boxes.forEach((box)=>{
